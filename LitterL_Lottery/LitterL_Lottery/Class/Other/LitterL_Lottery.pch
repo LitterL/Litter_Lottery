@@ -1,0 +1,13 @@
+//PCH文件  用来导入所有扩展分类的头文件
+
+#ifndef LitterL_Lottery_pch
+#define LitterL_Lottery_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "LJYCategory.h"
+#define   keyWindow  [UIApplication sharedApplication].keyWindow
+#endif
+
+#endif /* LitterL_Lottery_pch */

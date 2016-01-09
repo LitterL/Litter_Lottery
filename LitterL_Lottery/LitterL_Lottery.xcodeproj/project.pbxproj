@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A039A8C1C400619007254E4 /* LitterLHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A8B1C400619007254E4 /* LitterLHallTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4A039A8F1C40063A007254E4 /* LitterLDisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A8E1C40063A007254E4 /* LitterLDisTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4A039A921C40065E007254E4 /* LitterLHisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A911C40065E007254E4 /* LitterLHisTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4A039A951C400694007254E4 /* LitterLAreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A941C400694007254E4 /* LitterLAreViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4A039A981C4006B5007254E4 /* LitterLMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A971C4006B5007254E4 /* LitterLMyLotteryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4A039A9B1C400C59007254E4 /* LitterLtabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A9A1C400C59007254E4 /* LitterLtabBarButton.m */; settings = {ASSET_TAGS = (); }; };
+		4A039A9E1C40143F007254E4 /* LitterLbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039A9D1C40143F007254E4 /* LitterLbutton.m */; settings = {ASSET_TAGS = (); }; };
+		4A039AA11C401795007254E4 /* LitterLNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A039AA01C401795007254E4 /* LitterLNavViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4A8260E81C3FCAE1005A3745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8260D91C3FCAE1005A3745 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		4A8260E91C3FCAE1005A3745 /* LitterL_SandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8260DD1C3FCAE1005A3745 /* LitterL_SandBox.m */; settings = {ASSET_TAGS = (); }; };
+		4A8260EA1C3FCAE1005A3745 /* UIColor+LJY_LitterL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8260E01C3FCAE1005A3745 /* UIColor+LJY_LitterL.m */; settings = {ASSET_TAGS = (); }; };
+		4A8260EB1C3FCAE1005A3745 /* UIImage+LJY_LitterL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8260E21C3FCAE1005A3745 /* UIImage+LJY_LitterL.m */; settings = {ASSET_TAGS = (); }; };
+		4A8260EC1C3FCAE1005A3745 /* UIView+LJY_LitterL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8260E41C3FCAE1005A3745 /* UIView+LJY_LitterL.m */; settings = {ASSET_TAGS = (); }; };
+		4A8260ED1C3FCAE1005A3745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8260E71C3FCAE1005A3745 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		4A8400D71C41119200D0BFA8 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8400D31C41119200D0BFA8 /* MBProgressHUD+XMG.m */; settings = {ASSET_TAGS = (); }; };
+		4A8400D81C41119200D0BFA8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A8400D41C41119200D0BFA8 /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		4A8400D91C41119200D0BFA8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8400D61C41119200D0BFA8 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		4A91E4DA1C3FB31F00CE7943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A91E4D91C3FB31F00CE7943 /* Assets.xcassets */; };
+		4A91E4DD1C3FB31F00CE7943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91E4DB1C3FB31F00CE7943 /* LaunchScreen.storyboard */; };
+		4AA30EEA1C40B3720021FF67 /* LitterLMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA30EE91C40B3720021FF67 /* LitterLMasking.m */; settings = {ASSET_TAGS = (); }; };
+		4AA30EED1C40B5790021FF67 /* LitterLMaskChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA30EEC1C40B5790021FF67 /* LitterLMaskChild.m */; settings = {ASSET_TAGS = (); }; };
+		4AA30EEF1C40B58A0021FF67 /* LitterLMaskChild.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA30EEE1C40B58A0021FF67 /* LitterLMaskChild.xib */; settings = {ASSET_TAGS = (); }; };
+		4AA30EF21C40BE480021FF67 /* LitterLAreNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA30EF11C40BE480021FF67 /* LitterLAreNavViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4AA30EF41C40C3B30021FF67 /* LitterLDisTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA30EF31C40C3B30021FF67 /* LitterLDisTableViewController.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4AB132EC1C40ED0B00265BE5 /* LitterLSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB132EB1C40ED0B00265BE5 /* LitterLSettingItem.m */; settings = {ASSET_TAGS = (); }; };
+		4AB132EF1C40ED1800265BE5 /* LitterLSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB132EE1C40ED1800265BE5 /* LitterLSettingGroup.m */; settings = {ASSET_TAGS = (); }; };
+		4AB132F21C40ED9C00265BE5 /* LitterLSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB132F11C40ED9C00265BE5 /* LitterLSettingTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		4AB132F51C40FB3900265BE5 /* LitterLArrowSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB132F41C40FB3900265BE5 /* LitterLArrowSetting.m */; settings = {ASSET_TAGS = (); }; };
+		4AB132F81C40FBB100265BE5 /* LitterLSwtchSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB132F71C40FBB100265BE5 /* LitterLSwtchSetting.m */; settings = {ASSET_TAGS = (); }; };
+		4AC95B631C3FCDF500BFBBC4 /* LitterLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95B621C3FCDF500BFBBC4 /* LitterLTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		4AC95B671C3FCEF500BFBBC4 /* LitterLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95B661C3FCEF500BFBBC4 /* LitterLCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4AC95B6D1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95B6C1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		4ACD5D6A1C3FC8FC00CACC1F /* LitterLRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD5D691C3FC8FC00CACC1F /* LitterLRootController.m */; settings = {ASSET_TAGS = (); }; };
+		4AF6F0611C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF6F0601C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4AF6F0641C41047800F9FCC4 /* LitterLSettingClicdOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF6F0631C41047800F9FCC4 /* LitterLSettingClicdOneViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4AF98ED81C40DDD1001352D0 /* LitterLDisChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98ED71C40DDD1001352D0 /* LitterLDisChildViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4AF98EDB1C40DF3E001352D0 /* LitterLDisChildTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98EDA1C40DF3E001352D0 /* LitterLDisChildTitleBtn.m */; settings = {ASSET_TAGS = (); }; };
+		4AF98EDD1C40E49E001352D0 /* LitterLMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AF98EDC1C40E49E001352D0 /* LitterLMyLotteryViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		4AF98EE71C40EAC5001352D0 /* LitterLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98EE41C40EAC5001352D0 /* LitterLSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A039A8A1C400619007254E4 /* LitterLHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLHallTableViewController.h; sourceTree = "<group>"; };
+		4A039A8B1C400619007254E4 /* LitterLHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLHallTableViewController.m; sourceTree = "<group>"; };
+		4A039A8D1C40063A007254E4 /* LitterLDisTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLDisTableViewController.h; sourceTree = "<group>"; };
+		4A039A8E1C40063A007254E4 /* LitterLDisTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLDisTableViewController.m; sourceTree = "<group>"; };
+		4A039A901C40065E007254E4 /* LitterLHisTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLHisTableViewController.h; sourceTree = "<group>"; };
+		4A039A911C40065E007254E4 /* LitterLHisTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLHisTableViewController.m; sourceTree = "<group>"; };
+		4A039A931C400694007254E4 /* LitterLAreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLAreViewController.h; sourceTree = "<group>"; };
+		4A039A941C400694007254E4 /* LitterLAreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLAreViewController.m; sourceTree = "<group>"; };
+		4A039A961C4006B5007254E4 /* LitterLMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLMyLotteryViewController.h; sourceTree = "<group>"; };
+		4A039A971C4006B5007254E4 /* LitterLMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLMyLotteryViewController.m; sourceTree = "<group>"; };
+		4A039A991C400C59007254E4 /* LitterLtabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLtabBarButton.h; sourceTree = "<group>"; };
+		4A039A9A1C400C59007254E4 /* LitterLtabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLtabBarButton.m; sourceTree = "<group>"; };
+		4A039A9C1C40143F007254E4 /* LitterLbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLbutton.h; sourceTree = "<group>"; };
+		4A039A9D1C40143F007254E4 /* LitterLbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLbutton.m; sourceTree = "<group>"; };
+		4A039A9F1C401795007254E4 /* LitterLNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLNavViewController.h; sourceTree = "<group>"; };
+		4A039AA01C401795007254E4 /* LitterLNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLNavViewController.m; sourceTree = "<group>"; };
+		4A8260D81C3FCAE1005A3745 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A8260D91C3FCAE1005A3745 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A8260DC1C3FCAE1005A3745 /* LitterL_SandBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterL_SandBox.h; sourceTree = "<group>"; };
+		4A8260DD1C3FCAE1005A3745 /* LitterL_SandBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterL_SandBox.m; sourceTree = "<group>"; };
+		4A8260DE1C3FCAE1005A3745 /* LJYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJYCategory.h; sourceTree = "<group>"; };
+		4A8260DF1C3FCAE1005A3745 /* UIColor+LJY_LitterL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LJY_LitterL.h"; sourceTree = "<group>"; };
+		4A8260E01C3FCAE1005A3745 /* UIColor+LJY_LitterL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LJY_LitterL.m"; sourceTree = "<group>"; };
+		4A8260E11C3FCAE1005A3745 /* UIImage+LJY_LitterL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LJY_LitterL.h"; sourceTree = "<group>"; };
+		4A8260E21C3FCAE1005A3745 /* UIImage+LJY_LitterL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LJY_LitterL.m"; sourceTree = "<group>"; };
+		4A8260E31C3FCAE1005A3745 /* UIView+LJY_LitterL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJY_LitterL.h"; sourceTree = "<group>"; };
+		4A8260E41C3FCAE1005A3745 /* UIView+LJY_LitterL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJY_LitterL.m"; sourceTree = "<group>"; };
+		4A8260E61C3FCAE1005A3745 /* LitterL_Lottery.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterL_Lottery.pch; sourceTree = "<group>"; };
+		4A8260E71C3FCAE1005A3745 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A8400D21C41119200D0BFA8 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		4A8400D31C41119200D0BFA8 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		4A8400D41C41119200D0BFA8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		4A8400D51C41119200D0BFA8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4A8400D61C41119200D0BFA8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4A91E4CA1C3FB31F00CE7943 /* LitterL_Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitterL_Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A91E4D91C3FB31F00CE7943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A91E4DC1C3FB31F00CE7943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A91E4DE1C3FB31F00CE7943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA30EE81C40B3720021FF67 /* LitterLMasking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLMasking.h; sourceTree = "<group>"; };
+		4AA30EE91C40B3720021FF67 /* LitterLMasking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLMasking.m; sourceTree = "<group>"; };
+		4AA30EEB1C40B5790021FF67 /* LitterLMaskChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLMaskChild.h; sourceTree = "<group>"; };
+		4AA30EEC1C40B5790021FF67 /* LitterLMaskChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLMaskChild.m; sourceTree = "<group>"; };
+		4AA30EEE1C40B58A0021FF67 /* LitterLMaskChild.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LitterLMaskChild.xib; sourceTree = "<group>"; };
+		4AA30EF01C40BE480021FF67 /* LitterLAreNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLAreNavViewController.h; sourceTree = "<group>"; };
+		4AA30EF11C40BE480021FF67 /* LitterLAreNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLAreNavViewController.m; sourceTree = "<group>"; };
+		4AA30EF31C40C3B30021FF67 /* LitterLDisTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LitterLDisTableViewController.storyboard; sourceTree = "<group>"; };
+		4AB132EA1C40ED0B00265BE5 /* LitterLSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLSettingItem.h; sourceTree = "<group>"; };
+		4AB132EB1C40ED0B00265BE5 /* LitterLSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLSettingItem.m; sourceTree = "<group>"; };
+		4AB132ED1C40ED1800265BE5 /* LitterLSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLSettingGroup.h; sourceTree = "<group>"; };
+		4AB132EE1C40ED1800265BE5 /* LitterLSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLSettingGroup.m; sourceTree = "<group>"; };
+		4AB132F01C40ED9C00265BE5 /* LitterLSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLSettingTableViewCell.h; sourceTree = "<group>"; };
+		4AB132F11C40ED9C00265BE5 /* LitterLSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLSettingTableViewCell.m; sourceTree = "<group>"; };
+		4AB132F31C40FB3900265BE5 /* LitterLArrowSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLArrowSetting.h; sourceTree = "<group>"; };
+		4AB132F41C40FB3900265BE5 /* LitterLArrowSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLArrowSetting.m; sourceTree = "<group>"; };
+		4AB132F61C40FBB100265BE5 /* LitterLSwtchSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLSwtchSetting.h; sourceTree = "<group>"; };
+		4AB132F71C40FBB100265BE5 /* LitterLSwtchSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLSwtchSetting.m; sourceTree = "<group>"; };
+		4AC95B611C3FCDF500BFBBC4 /* LitterLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLTabBarController.h; sourceTree = "<group>"; };
+		4AC95B621C3FCDF500BFBBC4 /* LitterLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLTabBarController.m; sourceTree = "<group>"; };
+		4AC95B651C3FCEF500BFBBC4 /* LitterLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LitterLCollectionViewController.h; path = "NewFeatures-(新特性)/LitterLCollectionViewController.h"; sourceTree = "<group>"; };
+		4AC95B661C3FCEF500BFBBC4 /* LitterLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LitterLCollectionViewController.m; path = "NewFeatures-(新特性)/LitterLCollectionViewController.m"; sourceTree = "<group>"; };
+		4AC95B6B1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLCollectionViewCell.h; sourceTree = "<group>"; };
+		4AC95B6C1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLCollectionViewCell.m; sourceTree = "<group>"; };
+		4ACD5D681C3FC8FC00CACC1F /* LitterLRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LitterLRootController.h; path = Tool/LitterLRootController.h; sourceTree = "<group>"; };
+		4ACD5D691C3FC8FC00CACC1F /* LitterLRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LitterLRootController.m; path = Tool/LitterLRootController.m; sourceTree = "<group>"; };
+		4AF6F05F1C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLBasiSettingTableViewController.h; sourceTree = "<group>"; };
+		4AF6F0601C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLBasiSettingTableViewController.m; sourceTree = "<group>"; };
+		4AF6F0621C41047800F9FCC4 /* LitterLSettingClicdOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLSettingClicdOneViewController.h; sourceTree = "<group>"; };
+		4AF6F0631C41047800F9FCC4 /* LitterLSettingClicdOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLSettingClicdOneViewController.m; sourceTree = "<group>"; };
+		4AF98ED61C40DDD1001352D0 /* LitterLDisChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLDisChildViewController.h; sourceTree = "<group>"; };
+		4AF98ED71C40DDD1001352D0 /* LitterLDisChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLDisChildViewController.m; sourceTree = "<group>"; };
+		4AF98ED91C40DF3E001352D0 /* LitterLDisChildTitleBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLDisChildTitleBtn.h; sourceTree = "<group>"; };
+		4AF98EDA1C40DF3E001352D0 /* LitterLDisChildTitleBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLDisChildTitleBtn.m; sourceTree = "<group>"; };
+		4AF98EDC1C40E49E001352D0 /* LitterLMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LitterLMyLotteryViewController.xib; sourceTree = "<group>"; };
+		4AF98EE31C40EAC5001352D0 /* LitterLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitterLSettingViewController.h; sourceTree = "<group>"; };
+		4AF98EE41C40EAC5001352D0 /* LitterLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitterLSettingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A91E4C71C3FB31F00CE7943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8260D71C3FCAE1005A3745 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4A8260D81C3FCAE1005A3745 /* AppDelegate.h */,
+				4A8260D91C3FCAE1005A3745 /* AppDelegate.m */,
+				4A8260E61C3FCAE1005A3745 /* LitterL_Lottery.pch */,
+				4A8260DA1C3FCAE1005A3745 /* Category */,
+				4A8260E51C3FCAE1005A3745 /* Lib */,
+				4A8260E71C3FCAE1005A3745 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4A8260DA1C3FCAE1005A3745 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4A8260DB1C3FCAE1005A3745 /* LJY_Category */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4A8260DB1C3FCAE1005A3745 /* LJY_Category */ = {
+			isa = PBXGroup;
+			children = (
+				4A8260DC1C3FCAE1005A3745 /* LitterL_SandBox.h */,
+				4A8260DD1C3FCAE1005A3745 /* LitterL_SandBox.m */,
+				4A8260DE1C3FCAE1005A3745 /* LJYCategory.h */,
+				4A8260DF1C3FCAE1005A3745 /* UIColor+LJY_LitterL.h */,
+				4A8260E01C3FCAE1005A3745 /* UIColor+LJY_LitterL.m */,
+				4A8260E11C3FCAE1005A3745 /* UIImage+LJY_LitterL.h */,
+				4A8260E21C3FCAE1005A3745 /* UIImage+LJY_LitterL.m */,
+				4A8260E31C3FCAE1005A3745 /* UIView+LJY_LitterL.h */,
+				4A8260E41C3FCAE1005A3745 /* UIView+LJY_LitterL.m */,
+			);
+			path = LJY_Category;
+			sourceTree = "<group>";
+		};
+		4A8260E51C3FCAE1005A3745 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4A8400D11C41119200D0BFA8 /* MBProgressHUD */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		4A8400D11C41119200D0BFA8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4A8400D21C41119200D0BFA8 /* MBProgressHUD+XMG.h */,
+				4A8400D31C41119200D0BFA8 /* MBProgressHUD+XMG.m */,
+				4A8400D41C41119200D0BFA8 /* MBProgressHUD.bundle */,
+				4A8400D51C41119200D0BFA8 /* MBProgressHUD.h */,
+				4A8400D61C41119200D0BFA8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4A91E4C11C3FB31F00CE7943 = {
+			isa = PBXGroup;
+			children = (
+				4A91E4CC1C3FB31F00CE7943 /* LitterL_Lottery */,
+				4A91E4CB1C3FB31F00CE7943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A91E4CB1C3FB31F00CE7943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4CA1C3FB31F00CE7943 /* LitterL_Lottery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A91E4CC1C3FB31F00CE7943 /* LitterL_Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4E41C3FB34D00CE7943 /* Class */,
+				4A91E4D91C3FB31F00CE7943 /* Assets.xcassets */,
+				4A91E4DB1C3FB31F00CE7943 /* LaunchScreen.storyboard */,
+				4A91E4DE1C3FB31F00CE7943 /* Info.plist */,
+				4A91E4CD1C3FB31F00CE7943 /* Supporting Files */,
+			);
+			path = LitterL_Lottery;
+			sourceTree = "<group>";
+		};
+		4A91E4CD1C3FB31F00CE7943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A91E4E41C3FB34D00CE7943 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4ACD5D671C3FC8C000CACC1F /* Tool */,
+				4AF98EDE1C40E801001352D0 /* Setting-(设置) */,
+				4AC95B641C3FCEBB00BFBBC4 /* NewFeatures-(新特性) */,
+				4A91E4ED1C3FB34D00CE7943 /* Hall-(购票大厅) */,
+				4A91E4E51C3FB34D00CE7943 /* Arena-(竞技场) */,
+				4A91E4E91C3FB34D00CE7943 /* Discover-(发现) */,
+				4A91E4F11C3FB34D00CE7943 /* History-(开奖信息) */,
+				4A91E4F91C3FB34D00CE7943 /* MyLottery-(我的彩票) */,
+				4A91E4F51C3FB34D00CE7943 /* Main-(主要) */,
+				4A8260D71C3FCAE1005A3745 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4A91E4E51C3FB34D00CE7943 /* Arena-(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4E61C3FB34D00CE7943 /* Controller */,
+				4A91E4E71C3FB34D00CE7943 /* Model */,
+				4A91E4E81C3FB34D00CE7943 /* View */,
+			);
+			path = "Arena-(竞技场)";
+			sourceTree = "<group>";
+		};
+		4A91E4E61C3FB34D00CE7943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A039A931C400694007254E4 /* LitterLAreViewController.h */,
+				4A039A941C400694007254E4 /* LitterLAreViewController.m */,
+				4AA30EF01C40BE480021FF67 /* LitterLAreNavViewController.h */,
+				4AA30EF11C40BE480021FF67 /* LitterLAreNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A91E4E71C3FB34D00CE7943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A91E4E81C3FB34D00CE7943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A91E4E91C3FB34D00CE7943 /* Discover-(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4EA1C3FB34D00CE7943 /* Controller */,
+				4A91E4EB1C3FB34D00CE7943 /* Model */,
+				4A91E4EC1C3FB34D00CE7943 /* View */,
+			);
+			path = "Discover-(发现)";
+			sourceTree = "<group>";
+		};
+		4A91E4EA1C3FB34D00CE7943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A039A8D1C40063A007254E4 /* LitterLDisTableViewController.h */,
+				4A039A8E1C40063A007254E4 /* LitterLDisTableViewController.m */,
+				4AF98ED61C40DDD1001352D0 /* LitterLDisChildViewController.h */,
+				4AF98ED71C40DDD1001352D0 /* LitterLDisChildViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A91E4EB1C3FB34D00CE7943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A91E4EC1C3FB34D00CE7943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AA30EF31C40C3B30021FF67 /* LitterLDisTableViewController.storyboard */,
+				4AF98ED91C40DF3E001352D0 /* LitterLDisChildTitleBtn.h */,
+				4AF98EDA1C40DF3E001352D0 /* LitterLDisChildTitleBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A91E4ED1C3FB34D00CE7943 /* Hall-(购票大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4EE1C3FB34D00CE7943 /* Controller */,
+				4A91E4EF1C3FB34D00CE7943 /* Model */,
+				4A91E4F01C3FB34D00CE7943 /* View */,
+			);
+			path = "Hall-(购票大厅)";
+			sourceTree = "<group>";
+		};
+		4A91E4EE1C3FB34D00CE7943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A039A8A1C400619007254E4 /* LitterLHallTableViewController.h */,
+				4A039A8B1C400619007254E4 /* LitterLHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A91E4EF1C3FB34D00CE7943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A91E4F01C3FB34D00CE7943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AA30EE81C40B3720021FF67 /* LitterLMasking.h */,
+				4AA30EE91C40B3720021FF67 /* LitterLMasking.m */,
+				4AA30EEB1C40B5790021FF67 /* LitterLMaskChild.h */,
+				4AA30EEC1C40B5790021FF67 /* LitterLMaskChild.m */,
+				4AA30EEE1C40B58A0021FF67 /* LitterLMaskChild.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A91E4F11C3FB34D00CE7943 /* History-(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4F21C3FB34D00CE7943 /* Controller */,
+				4A91E4F31C3FB34D00CE7943 /* Model */,
+				4A91E4F41C3FB34D00CE7943 /* View */,
+			);
+			path = "History-(开奖信息)";
+			sourceTree = "<group>";
+		};
+		4A91E4F21C3FB34D00CE7943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A039A901C40065E007254E4 /* LitterLHisTableViewController.h */,
+				4A039A911C40065E007254E4 /* LitterLHisTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A91E4F31C3FB34D00CE7943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A91E4F41C3FB34D00CE7943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A91E4F51C3FB34D00CE7943 /* Main-(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4F61C3FB34D00CE7943 /* Controller */,
+				4A91E4F71C3FB34D00CE7943 /* Model */,
+				4A91E4F81C3FB34D00CE7943 /* View */,
+			);
+			path = "Main-(主要)";
+			sourceTree = "<group>";
+		};
+		4A91E4F61C3FB34D00CE7943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95B611C3FCDF500BFBBC4 /* LitterLTabBarController.h */,
+				4AC95B621C3FCDF500BFBBC4 /* LitterLTabBarController.m */,
+				4A039A9F1C401795007254E4 /* LitterLNavViewController.h */,
+				4A039AA01C401795007254E4 /* LitterLNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A91E4F71C3FB34D00CE7943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A91E4F81C3FB34D00CE7943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A039A991C400C59007254E4 /* LitterLtabBarButton.h */,
+				4A039A9A1C400C59007254E4 /* LitterLtabBarButton.m */,
+				4A039A9C1C40143F007254E4 /* LitterLbutton.h */,
+				4A039A9D1C40143F007254E4 /* LitterLbutton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A91E4F91C3FB34D00CE7943 /* MyLottery-(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				4A91E4FA1C3FB34D00CE7943 /* Controller */,
+				4A91E4FB1C3FB34D00CE7943 /* Model */,
+				4A91E4FC1C3FB34D00CE7943 /* View */,
+			);
+			path = "MyLottery-(我的彩票)";
+			sourceTree = "<group>";
+		};
+		4A91E4FA1C3FB34D00CE7943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A039A961C4006B5007254E4 /* LitterLMyLotteryViewController.h */,
+				4A039A971C4006B5007254E4 /* LitterLMyLotteryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A91E4FB1C3FB34D00CE7943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A91E4FC1C3FB34D00CE7943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AF98EDC1C40E49E001352D0 /* LitterLMyLotteryViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AC95B641C3FCEBB00BFBBC4 /* NewFeatures-(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95B681C3FD22400BFBBC4 /* Controller */,
+				4AC95B6A1C3FD23400BFBBC4 /* Model */,
+				4AC95B691C3FD22F00BFBBC4 /* View */,
+			);
+			name = "NewFeatures-(新特性)";
+			sourceTree = "<group>";
+		};
+		4AC95B681C3FD22400BFBBC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95B651C3FCEF500BFBBC4 /* LitterLCollectionViewController.h */,
+				4AC95B661C3FCEF500BFBBC4 /* LitterLCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4AC95B691C3FD22F00BFBBC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AC95B6B1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.h */,
+				4AC95B6C1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4AC95B6A1C3FD23400BFBBC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4ACD5D671C3FC8C000CACC1F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4ACD5D681C3FC8FC00CACC1F /* LitterLRootController.h */,
+				4ACD5D691C3FC8FC00CACC1F /* LitterLRootController.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		4AF98EDE1C40E801001352D0 /* Setting-(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				4AF98EE21C40EAC5001352D0 /* Controller */,
+				4AF98EE51C40EAC5001352D0 /* Model */,
+				4AF98EE61C40EAC5001352D0 /* View */,
+			);
+			name = "Setting-(设置)";
+			sourceTree = "<group>";
+		};
+		4AF98EE21C40EAC5001352D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AF6F05F1C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.h */,
+				4AF6F0601C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.m */,
+				4AF98EE31C40EAC5001352D0 /* LitterLSettingViewController.h */,
+				4AF98EE41C40EAC5001352D0 /* LitterLSettingViewController.m */,
+				4AF6F0621C41047800F9FCC4 /* LitterLSettingClicdOneViewController.h */,
+				4AF6F0631C41047800F9FCC4 /* LitterLSettingClicdOneViewController.m */,
+			);
+			name = Controller;
+			path = "Setting-(设置)/Controller";
+			sourceTree = "<group>";
+		};
+		4AF98EE51C40EAC5001352D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AB132ED1C40ED1800265BE5 /* LitterLSettingGroup.h */,
+				4AB132EE1C40ED1800265BE5 /* LitterLSettingGroup.m */,
+				4AB132EA1C40ED0B00265BE5 /* LitterLSettingItem.h */,
+				4AB132EB1C40ED0B00265BE5 /* LitterLSettingItem.m */,
+				4AB132F31C40FB3900265BE5 /* LitterLArrowSetting.h */,
+				4AB132F41C40FB3900265BE5 /* LitterLArrowSetting.m */,
+				4AB132F61C40FBB100265BE5 /* LitterLSwtchSetting.h */,
+				4AB132F71C40FBB100265BE5 /* LitterLSwtchSetting.m */,
+			);
+			name = Model;
+			path = "Setting-(设置)/Model";
+			sourceTree = "<group>";
+		};
+		4AF98EE61C40EAC5001352D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AB132F01C40ED9C00265BE5 /* LitterLSettingTableViewCell.h */,
+				4AB132F11C40ED9C00265BE5 /* LitterLSettingTableViewCell.m */,
+			);
+			name = View;
+			path = "Setting-(设置)/View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A91E4C91C3FB31F00CE7943 /* LitterL_Lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A91E4E11C3FB31F00CE7943 /* Build configuration list for PBXNativeTarget "LitterL_Lottery" */;
+			buildPhases = (
+				4A91E4C61C3FB31F00CE7943 /* Sources */,
+				4A91E4C71C3FB31F00CE7943 /* Frameworks */,
+				4A91E4C81C3FB31F00CE7943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitterL_Lottery;
+			productName = LitterL_Lottery;
+			productReference = 4A91E4CA1C3FB31F00CE7943 /* LitterL_Lottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A91E4C21C3FB31F00CE7943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LitterL;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = LJY;
+				TargetAttributes = {
+					4A91E4C91C3FB31F00CE7943 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = CY87G5G2JQ;
+					};
+				};
+			};
+			buildConfigurationList = 4A91E4C51C3FB31F00CE7943 /* Build configuration list for PBXProject "LitterL_Lottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A91E4C11C3FB31F00CE7943;
+			productRefGroup = 4A91E4CB1C3FB31F00CE7943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A91E4C91C3FB31F00CE7943 /* LitterL_Lottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A91E4C81C3FB31F00CE7943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA30EEF1C40B58A0021FF67 /* LitterLMaskChild.xib in Resources */,
+				4AF98EDD1C40E49E001352D0 /* LitterLMyLotteryViewController.xib in Resources */,
+				4A91E4DD1C3FB31F00CE7943 /* LaunchScreen.storyboard in Resources */,
+				4AA30EF41C40C3B30021FF67 /* LitterLDisTableViewController.storyboard in Resources */,
+				4A91E4DA1C3FB31F00CE7943 /* Assets.xcassets in Resources */,
+				4A8400D81C41119200D0BFA8 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A91E4C61C3FB31F00CE7943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF98EDB1C40DF3E001352D0 /* LitterLDisChildTitleBtn.m in Sources */,
+				4AB132F51C40FB3900265BE5 /* LitterLArrowSetting.m in Sources */,
+				4AB132F21C40ED9C00265BE5 /* LitterLSettingTableViewCell.m in Sources */,
+				4A039A8C1C400619007254E4 /* LitterLHallTableViewController.m in Sources */,
+				4A8400D91C41119200D0BFA8 /* MBProgressHUD.m in Sources */,
+				4AF98ED81C40DDD1001352D0 /* LitterLDisChildViewController.m in Sources */,
+				4A8260ED1C3FCAE1005A3745 /* main.m in Sources */,
+				4AC95B6D1C3FD2BF00BFBBC4 /* LitterLCollectionViewCell.m in Sources */,
+				4ACD5D6A1C3FC8FC00CACC1F /* LitterLRootController.m in Sources */,
+				4AF6F0641C41047800F9FCC4 /* LitterLSettingClicdOneViewController.m in Sources */,
+				4A8260EA1C3FCAE1005A3745 /* UIColor+LJY_LitterL.m in Sources */,
+				4A8400D71C41119200D0BFA8 /* MBProgressHUD+XMG.m in Sources */,
+				4A039A981C4006B5007254E4 /* LitterLMyLotteryViewController.m in Sources */,
+				4A039A8F1C40063A007254E4 /* LitterLDisTableViewController.m in Sources */,
+				4A8260E91C3FCAE1005A3745 /* LitterL_SandBox.m in Sources */,
+				4A039A9B1C400C59007254E4 /* LitterLtabBarButton.m in Sources */,
+				4AA30EED1C40B5790021FF67 /* LitterLMaskChild.m in Sources */,
+				4AC95B631C3FCDF500BFBBC4 /* LitterLTabBarController.m in Sources */,
+				4AA30EEA1C40B3720021FF67 /* LitterLMasking.m in Sources */,
+				4A8260E81C3FCAE1005A3745 /* AppDelegate.m in Sources */,
+				4A8260EB1C3FCAE1005A3745 /* UIImage+LJY_LitterL.m in Sources */,
+				4AF6F0611C40FFE900F9FCC4 /* LitterLBasiSettingTableViewController.m in Sources */,
+				4A8260EC1C3FCAE1005A3745 /* UIView+LJY_LitterL.m in Sources */,
+				4AF98EE71C40EAC5001352D0 /* LitterLSettingViewController.m in Sources */,
+				4A039A921C40065E007254E4 /* LitterLHisTableViewController.m in Sources */,
+				4AB132F81C40FBB100265BE5 /* LitterLSwtchSetting.m in Sources */,
+				4AB132EF1C40ED1800265BE5 /* LitterLSettingGroup.m in Sources */,
+				4A039A951C400694007254E4 /* LitterLAreViewController.m in Sources */,
+				4AC95B671C3FCEF500BFBBC4 /* LitterLCollectionViewController.m in Sources */,
+				4AB132EC1C40ED0B00265BE5 /* LitterLSettingItem.m in Sources */,
+				4A039A9E1C40143F007254E4 /* LitterLbutton.m in Sources */,
+				4A039AA11C401795007254E4 /* LitterLNavViewController.m in Sources */,
+				4AA30EF21C40BE480021FF67 /* LitterLAreNavViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A91E4DB1C3FB31F00CE7943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A91E4DC1C3FB31F00CE7943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A91E4DF1C3FB31F00CE7943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A91E4E01C3FB31F00CE7943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A91E4E21C3FB31F00CE7943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LitterL_Lottery/Class/Other/LitterL_Lottery.pch;
+				INFOPLIST_FILE = LitterL_Lottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.925.LitterL-Lottery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A91E4E31C3FB31F00CE7943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LitterL_Lottery/Class/Other/LitterL_Lottery.pch;
+				INFOPLIST_FILE = LitterL_Lottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.925.LitterL-Lottery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A91E4C51C3FB31F00CE7943 /* Build configuration list for PBXProject "LitterL_Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A91E4DF1C3FB31F00CE7943 /* Debug */,
+				4A91E4E01C3FB31F00CE7943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A91E4E11C3FB31F00CE7943 /* Build configuration list for PBXNativeTarget "LitterL_Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A91E4E21C3FB31F00CE7943 /* Debug */,
+				4A91E4E31C3FB31F00CE7943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A91E4C21C3FB31F00CE7943 /* Project object */;
+}
