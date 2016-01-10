@@ -7,5 +7,9 @@ xcode7是支持`3D Touch`开发的，可是模拟器并不支持这个手势，�
 
 git地址：[SBShortcutMenuSimulator](https://github.com/DeskConnect/SBShortcutMenuSimulator)至于怎么玩就看大家自己了
 
+
+
+至于是如何实现的  请见博客园地址：[LitterL--初识3D Touch](http://www.cnblogs.com/ljy-666/p/5119592.html)
+
 ![](Lottery.gif)
 
