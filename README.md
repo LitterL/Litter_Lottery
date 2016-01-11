@@ -9,7 +9,11 @@ git地址：[SBShortcutMenuSimulator](https://github.com/DeskConnect/SBShortcutM
 
 
 
-至于是如何实现的  请见博客园地址：[LitterL--初识3D Touch](http://www.cnblogs.com/ljy-666/p/5119592.html)
+至于是如何实现的  请见:
+
+博客园地址：[LitterL--初识3D Touch](http://www.cnblogs.com/ljy-666/p/5119592.html)
+
+简书地址：[LitterL--3D Touch](http://www.jianshu.com/p/bc54e420b112)
 
 ![](Lottery.gif)
 
